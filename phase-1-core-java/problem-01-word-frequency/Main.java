@@ -4,9 +4,19 @@ import java.util.Map;
 
 public class Main {
 
+    /*
+     * Problem 1: Word Frequency Counter
+     *
+     * Given a List<String>, count how many times each word appears.
+     *
+     * Example:
+     * Input:  [java, python, java, javascript, java, python]
+     * Output: {java=3, python=2, javascript=1}
+     *
+     */
+
     public static void main (String[] args){
 
-        // create words
         List<String> words = List.of(
                 "java",
                 "python",
@@ -16,11 +26,8 @@ public class Main {
                 "python"
         );
 
-        // call countWords()
         Map<String, Integer> result = countWords(words);
 
-
-        // print result
         System.out.println(result);
     }
 
@@ -28,7 +35,6 @@ public class Main {
 
         HashMap<String, Integer> hash = new HashMap<>();
 
-        // for loop going through each word in List
         for (int i = 0; i < words.size(); i++) {
             String word = words.get(i);
 
