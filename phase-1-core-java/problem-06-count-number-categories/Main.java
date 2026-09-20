@@ -4,6 +4,18 @@ import java.util.Map;
 
 public class Main {
 
+    /*
+     * Problem 6: Count Number Categories
+     *
+     * Given a List<Integer>, count how many values are
+     * positive, negative, and zero.
+     *
+     * Example:
+     * Input:  [2, 0, 3, 5, -1, 0]
+     * Output: {positive=3, negative=1, zero=2}
+     *
+     */
+
     public static void main(String []args){
 
         List<Integer> numbers = List.of(
