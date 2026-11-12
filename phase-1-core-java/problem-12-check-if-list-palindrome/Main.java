@@ -22,7 +22,6 @@ public class Main {
         );
 
         boolean result = palindromeCheck(nums);
-
         System.out.println(result);
     }
 
@@ -40,7 +39,6 @@ public class Main {
                 return false;
             }
         }
-
         return true;
     }
 }
